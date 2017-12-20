@@ -1,0 +1,17 @@
+{
+    "build":
+    {
+     "content":
+     [
+         {
+             "files":["**/**.md"],
+             "exclude":[]
+         }
+     ],
+     "resource":[],
+     "globalMetadata":{},
+     "externalReference":[],
+     "template":"",
+     "dest":"Docs/TestDocs01"
+    }
+}

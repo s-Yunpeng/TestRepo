@@ -1,0 +1,51 @@
+{
+    
+      "build_entry_point": "",
+    
+      "need_generate_pdf": false,
+    
+      "need_generate_intellisense": false,
+
+    
+      "docsets_to_publish": [
+    
+        {
+    
+          "docset_name": "TestDocs01",
+    
+          "build_output_subfolder": "Docs/TestDocs01",
+    
+          "locale": "en-us",
+
+          "version":"0",
+    
+          "open_to_public_contributors": false,
+    
+          "type_mapping": {
+    
+            "Conceptual": "Content"
+          }
+        },
+        {
+            
+                  "docset_name": "TestDocs02",
+            
+                  "build_output_subfolder": "Docs/TestDocs02",
+            
+                  "locale": "en-us",
+        
+                  "version":"0",
+            
+                  "open_to_public_contributors": false,
+            
+                  "type_mapping": {
+            
+                    "Conceptual": "Content"
+                  }
+                }
+    ],
+
+    "notification_subscribers":["v-yunsun.@microsoft.com"],
+    "branches_to_filter":["master"]
+}
+
